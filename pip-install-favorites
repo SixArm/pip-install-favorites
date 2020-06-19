@@ -1,0 +1,266 @@
+#!/bin/sh
+
+##
+# pip-install-favorites
+#
+# Use the `pip` command to install our favorite packages.
+#
+# ## Tracking
+#
+# * Command: https://github.com/sixarm/brew-install-favorites-for-developing
+# * Version: 5.0.0
+# * Created: 2020-06-20T22:56:18Z
+# * Updated: 2020-06-20T22:57:42Z
+# * License: [GPL-2.0](https://spdx.org/licenses/GPL-2.0-only.html)
+# * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
+##
+
+# altgraph: Graph (network) package.
+pip install altgraph
+
+# awscli: Amazon Web Services (AWS) command line interface (CIL).
+pip install awscli
+
+# aws-shell: Amazon Web Services (AWS) shell for interactive commands.
+pip install aws-shell
+
+# awsebcli: Amazon Web Services (AWS) Elastic Beanstalk (EB) command line interface (CLI).
+pip install awsebcli
+
+# bdist-mpkg: Create virtualenv built distributions.
+pip install bdist-mpkg
+
+# beautifulsoup: Website screen-scraping and messy parsing.
+pip install beautifulsoup4
+
+# boto: ?
+pip install boto
+
+# boto3: ?
+pip install boto3
+
+# celery: ?
+pip install celery
+
+# cffi: C-code Foreign Function Interface.
+pip install cffi
+
+# click: Create command line interfaces in a composable way.
+pip install click
+
+# construct: Declarative parser (and builder) for binary data.
+pip install construct
+
+# cryptography: Cryptography recipes and primitives.
+pip install cryptography
+
+# cycler: Composable style cycles.
+pip install cycler
+
+# dataset: Easy-to-use data handling for SQL data stores.
+pip install dataset
+
+# dicttoxml: ?
+pip install dicttoxml
+
+# dill: A better "pickle" to serialize objects to disk.
+pip install dill
+
+# enum34: Python 3.4 Enum backported.
+pip install enum34
+
+# flask: ?
+pip install flask
+
+# flask-login: ?
+pip install flask-login
+
+# flask-sqlalchemy: ?
+pip install flask-sqlalchemy
+
+# folium: Visualize geographic data.
+pip install folium
+
+# funcsigs: ?
+pip install funcsigs
+
+# geopandas: Geographic pandas extensions.
+
+#- geopandas
+
+# git-filter-repo: Git tool to filter repo files, better than git filter-branch.
+pip install git-filter-repo
+
+# hg-git: Mercurial-to-git bridge for version control.
+pip install hg-git
+
+# idna: ?
+pip install idna
+
+# ipaddress: IPv4/IPv6 manipulation library.
+pip install ipaddress
+
+# jc: JSON converter for popular Unix commands.
+pip install jc
+
+# joblib: Job library for caching, parallelizing, persistence.
+pip install joblib
+
+# lxml: XML parsing (prefer this when you need speed).
+pip install lxml
+
+# macholib: Mach-O header analysis and editing.
+pip install macholib
+
+# marshmallow: Simplified object serialization.
+pip install marshmallow
+
+# matplotlib: Math plotting library.
+pip install matplotlib
+
+# mercurial: Mercurial version control.
+pip install mercurial
+
+# mock: ?
+pip install mock
+
+# modulegraph: ?
+pip install modulegraph
+
+# ndg-httpsclient: ?
+pip install ndg-httpsclient
+
+# nose: ?
+pip install nose
+
+# numpy: NumPy scientific computing with data structures.
+pip install numpy
+
+# pandas: Data analysis, time series, and statistics.
+pip install pandas
+
+# passlib: ?
+pip install passlib
+
+# pbr: ?
+pip install pbr
+
+# pip: Python package manager.
+pip install pip
+
+# pelican: Pelican static site generator.
+pip install pelican
+
+# pomp: Web scraping (prefer vs. scrapy).
+pip install pomp
+
+# pillow: Friendly fork of PIL, the Python Imaging Library (https://python-pillow.org/).
+pip install pillow
+
+# progressbar2: Progress bar (prefer tqdm).
+pip install progressbar2
+
+# psutil: ?
+pip install psutil
+
+# pudb: Python debugger (prefer vs. pdb).
+pip install pudb
+
+# pyasn1: ?
+pip install pyasn1
+
+# pycparser: ?
+pip install pycparser
+
+# pygithub: Python GitHub API.
+pip install pygithub
+
+# pyjwt: ?
+pip install pyjwt
+
+# pymysql: Python bindings for MySQL.
+pip install pymysql
+
+# pyopenssl: ?
+pip install pyopenssl
+
+# pyOpenSSL: ?
+pip install pyOpenSSL
+
+# py2app: ?
+pip install py2app
+
+# pyparsing: ?
+pip install pyparsing
+
+# pytest: ?
+pip install pytest
+
+# python-dateutil: ?
+pip install python-dateutil
+
+# python-magic: ?
+pip install python-magic
+
+# pytz: ?
+pip install pytz
+
+# redis: Redis database.
+pip install redis
+
+# requests: Requests is HTTP for Humans (http://www.python-requests.org/).
+pip install requests
+
+# schema: Simple data validation library (prefer vs. voluptuous).
+pip install schema
+
+# schematics: Data structures and transformations.
+pip install schematics
+
+# scipi: SciPy library of algorithms and mathematical tools.
+pip install scipy
+
+# scrapy: Scrape and extract data from websites (https://scrapy.org/) (prefer pomp).
+pip install scrapy
+
+# setuptools: ?
+pip install setuptools
+
+# six: ?
+pip install six
+
+# sphinx: ?
+pip install sphinx
+
+# sphinx-rtd-theme: ?
+pip install sphinx-rtd-theme
+
+# sqlalchemy: SQL database abstraction library.
+pip install sqlalchemy
+
+# tinydb: Pure Python NoSQL database.
+pip install tinydb
+
+# Twisted: event-driven networking engine (https://twistedmatrix.com/).
+pip install Twisted
+
+# tqdm: Display progress bars for loops in code (prefer vs. progressbar2).
+pip install tqdm
+
+# virtualenv: Virtual environments for independent installations.
+pip install virtualenv
+
+# visidata: Rapidly explore columnar data in the terminal.
+pip install visidata
+
+# voluptuous: Data validation library (prefer schema).
+pip install voluptuous
+
+# xattr: ?
+pip install xattr
+
+# xlrd: Excel reader to export spreadsheet data
+pip install xlrd
+
+# zope.interface: ?
+pip install zope.interface
