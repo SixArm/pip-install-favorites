@@ -211,6 +211,9 @@ pip install redis
 # requests: Requests is HTTP for Humans (http://www.python-requests.org/).
 pip install requests
 
+# rich: rich text and beautiful formatting in the terminal.
+pip install rich
+
 # schema: Simple data validation library (prefer vs. voluptuous).
 pip install schema
 
