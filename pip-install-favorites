@@ -226,6 +226,9 @@ pip install scipy
 # scrapy: Scrape and extract data from websites (https://scrapy.org/) (prefer pomp).
 pip install scrapy
 
+# semgrep: Semantic grep for source code quality evaluation
+pip install semgrep
+
 # setuptools: ?
 pip install setuptools
 
