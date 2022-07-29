@@ -1,4 +1,5 @@
 #!/bin/sh
+set -euf
 
 ##
 # pip-install-favorites
@@ -8,10 +9,10 @@
 # ## Tracking
 #
 # * Command: https://github.com/sixarm/brew-install-favorites-for-developing
-# * Version: 5.0.0
+# * Version: 6.0.0
 # * Created: 2020-06-20T22:56:18Z
-# * Updated: 2020-06-20T22:57:42Z
-# * License: [GPL-2.0](https://spdx.org/licenses/GPL-2.0-only.html)
+# * Updated: 2022-07-29T18:43:43Z
+# * License: GPL-2.0-or-later or contact us for custom
 # * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
 ##
 
@@ -33,13 +34,13 @@ pip install bdist-mpkg
 # beautifulsoup: Website screen-scraping and messy parsing.
 pip install beautifulsoup4
 
-# boto: ?
+# boto: Amazon Web Services API interfaces for Python 2
 pip install boto
 
-# boto3: ?
+# boto3: Amazon Web Services API interfaces for Python 3
 pip install boto3
 
-# celery: ?
+# celery: Task queues to distribute work across resources.
 pip install celery
 
 # cffi: C-code Foreign Function Interface.
@@ -60,7 +61,7 @@ pip install cycler
 # dataset: Easy-to-use data handling for SQL data stores.
 pip install dataset
 
-# dicttoxml: ?
+# dicttoxml: Convert a Python dictionary or other native data type into a valid XML string.
 pip install dicttoxml
 
 # dill: A better "pickle" to serialize objects to disk.
@@ -69,32 +70,25 @@ pip install dill
 # enum34: Python 3.4 Enum backported.
 pip install enum34
 
-# flask: ?
+# flask: Flask is a lightweight WSGI web application framework.
 pip install flask
 
-# flask-login: ?
+# flask-login: Flask-Login provides user session management for Flask.
 pip install flask-login
 
-# flask-sqlalchemy: ?
+# flask-sqlalchemy: Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy.
 pip install flask-sqlalchemy
 
 # folium: Visualize geographic data.
 pip install folium
 
-# funcsigs: ?
+# funcsigs: Function signatures
 pip install funcsigs
-
-# geopandas: Geographic pandas extensions.
-
-#- geopandas
 
 # git-filter-repo: Git tool to filter repo files, better than git filter-branch.
 pip install git-filter-repo
 
-# hg-git: Mercurial-to-git bridge for version control.
-pip install hg-git
-
-# idna: ?
+# idna: Support for the Internationalised Domain Names in Applications (IDNA) protocol.
 pip install idna
 
 # ipaddress: IPv4/IPv6 manipulation library.
@@ -118,19 +112,16 @@ pip install marshmallow
 # matplotlib: Math plotting library.
 pip install matplotlib
 
-# mercurial: Mercurial version control.
-pip install mercurial
-
-# mock: ?
+# mock: mock is a library for testing in Python.
 pip install mock
 
-# modulegraph: ?
+# modulegraph: modulegraph determines a dependency graph between Python modules.
 pip install modulegraph
 
-# ndg-httpsclient: ?
+# ndg-httpsclient: A HTTPS client implementation.
 pip install ndg-httpsclient
 
-# nose: ?
+# nose: nose extends the test loading and running features of unittest.
 pip install nose
 
 # numpy: NumPy scientific computing with data structures.
@@ -139,10 +130,10 @@ pip install numpy
 # pandas: Data analysis, time series, and statistics.
 pip install pandas
 
-# passlib: ?
+# passlib: Passlib is a password hashing library.
 pip install passlib
 
-# pbr: ?
+# pbr: Python Build Reasonableness.
 pip install pbr
 
 # pip: Python package manager.
@@ -160,52 +151,49 @@ pip install pillow
 # progressbar2: Progress bar (prefer tqdm).
 pip install progressbar2
 
-# psutil: ?
+# psutil: psutil provides process and system utilities.
 pip install psutil
 
 # pudb: Python debugger (prefer vs. pdb).
 pip install pudb
 
-# pyasn1: ?
+# pyasn1: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208).
 pip install pyasn1
 
-# pycparser: ?
+# pycparser: pycparser is a complete parser of the C language.
 pip install pycparser
 
 # pygithub: Python GitHub API.
 pip install pygithub
 
-# pyjwt: ?
+# pyjwt: pyjwt is a Python implementation of Java Web Tokens as per RFC 7519.
 pip install pyjwt
 
 # pymysql: Python bindings for MySQL.
 pip install pymysql
 
-# pyopenssl: ?
+# pyopenssl: High-level wrapper around a subset of the OpenSSL library.
 pip install pyopenssl
 
-# pyOpenSSL: ?
-pip install pyOpenSSL
-
-# py2app: ?
+# py2app: py2app is a Python setuptools command which will allow you to make standalone code for macOS.
 pip install py2app
 
-# pyparsing: ?
+# pyparsing: PyParsing is a Python parsing module
 pip install pyparsing
 
-# pytest: ?
+# pytest: The pytest framework makes it easy to write tests.
 pip install pytest
 
-# python-dateutil: ?
+# python-dateutil: dateutil provides powerful extensions to datetime
 pip install python-dateutil
 
-# python-magic: ?
+# python-magic: python-magic is a Python interface to the libmagic file type identification library.
 pip install python-magic
 
-# pytz: ?
+# pytz: pytz brings the Olson timezone database into Python.
 pip install pytz
 
-# redis: Redis database.
+# redis: The Python interface to the Redis key-value store.
 pip install redis
 
 # requests: Requests is HTTP for Humans (http://www.python-requests.org/).
@@ -229,16 +217,16 @@ pip install scrapy
 # semgrep: Semantic grep for source code quality evaluation
 pip install semgrep
 
-# setuptools: ?
+# setuptools: setup tools
 pip install setuptools
 
-# six: ?
+# six: Six is a Python 2 and 3 compatibility library.
 pip install six
 
-# sphinx: ?
+# sphinx: Sphinx makes it easy to create intelligent and beautiful documentation.
 pip install sphinx
 
-# sphinx-rtd-theme: ?
+# sphinx-rtd-theme: Sphinx "Read The Docs" theme.
 pip install sphinx-rtd-theme
 
 # sqlalchemy: SQL database abstraction library.
@@ -262,11 +250,11 @@ pip install visidata
 # voluptuous: Data validation library (prefer schema).
 pip install voluptuous
 
-# xattr: ?
+# xattr: xattr interacts with extended attributes extend the basic attributes of files and directories in the file system.
 pip install xattr
 
 # xlrd: Excel reader to export spreadsheet data
 pip install xlrd
 
-# zope.interface: ?
-pip install zope.interface
+# zope: Zope is an open-source web application server.
+pip install zope
